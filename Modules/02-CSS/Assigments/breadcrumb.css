@@ -1,0 +1,36 @@
+.breadcrumb {
+    padding: 10px 20px;
+    background-color: beige;
+    list-style: none;
+    /*
+      - add some padding around it
+      - add background color
+      - remove the bullet points on the list
+    */
+  }
+  
+  .breadcrumb li {
+    display: inline;
+    /* 
+      Hint: display
+      - Make the list in a line.
+    */
+  }
+  
+  .breadcrumb li a {
+    color: blueviolet;
+    /*
+      - add text color
+    */
+  }
+
+  .breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+    /* add a CSS selector that selects all list elements except for 1st one */
+    /* add "/" before each selected list  */
+    /* add text color and padding */
+  }
+
+  
