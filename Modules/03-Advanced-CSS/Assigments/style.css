@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.hero-section {
+    padding: 20px;
+    background-color: #28282B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+
+
+}
+
+.heading {
+    color: aliceblue;
+}
+
+.heading h1 {
+    margin-bottom: 20px;
+}
+
+.heading p {
+    font-size: 14px;
+    
+}
+
+.image img{
+    width: 350px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+.blog-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.card {
+    background-color: white;
+    width: 350px;
+    height: 320px; 
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.card a {
+    text-decoration: none;
+    color: #191970;
+
+}
+
+.card-image {
+    height: 200px;
+    margin-bottom: 20px;
+    background-size: cover;
+    border-radius: 10px;
+
+
+}
+
+.title {
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+
+.card-background1 {
+    background-image: url('./Assets/Konunukan\ Garden.jpg');
+}
+
+.card-background2 {
+    background-image: url('./Assets/Sawatan.jpg');
+}
+
+.card-background3 {
+    background-image: url('./Assets/The\ Hill.jpg');
+}
+
+.card:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: all 1s linear;
+    opacity: 0.7;
+}
+
+.card-author {
+    display: flex;
+    padding-top: 10px;
+    font-size: 14px;
+    justify-content:space-around;
+}
+
+
+
